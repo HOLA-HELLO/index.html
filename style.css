@@ -1,0 +1,72 @@
+h1{
+
+    color: tan;
+    margin-left: 30px;
+
+}
+.header{
+
+    background-color: #404040;
+    display: flex;
+    justify-content: space-between;
+
+}
+.p{
+
+    margin-left: 300px;
+
+}
+.menu{
+
+    margin-right: 30px;
+
+}
+.menu a{
+    color: yellowgreen;
+    margin-left: 20px;
+
+}
+.grid{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space;
+
+}
+.item{
+
+    position: relative;
+
+}
+.item p{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+
+}
+.item:hover p{
+
+    opacity: 1;
+
+}
+.item:hover img{
+
+    opacity: 0.33;
+
+}
+.grandes{
+
+    width: 310;
+    height: 178;
+
+}
+.site-description{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+
+}
